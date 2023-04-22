@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  background-color: slateblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .links{
+  text-align: center;
+  margin-right: 50px;
+}
+ .links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+  margin: 10px;
+ }
+
+ .navbar .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+ }
+
+ .user p {
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+ }
+
+ .user img {
+  font-size: 15px;
+  border-radius: 50%;
+ }
+
+ input,
+ textarea {
+  font-family: "Nunito", sans-serif;
+ }
+
+ .create-post {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+ }
+ form {
+  margin-top: 55px;
+  margin-left: 450px;
+  padding: 35px 25px;
+  width: 330px; 
+  border-radius: 8px;
+  background-color: red;
+  text-emphasis-color: rgb(3, 205, 255);
+  backdrop-filter: blur(5px);
+  background-color: rgba(115, 255, 0, 0.599);
+  overflow: hidden;
+ }
+
+ input,
+ textarea{
+  padding: 9px 11px;
+  margin: 4px 9px 17px 9px;
+  background-color: bisque;
+  border: 0px transparent;
+  color: black;
+  font-size:  15px;
+  z-index: 1;
+
+ }
+
+ .submitForm:hover {
+  cursor: pointer; 
+ }
+
